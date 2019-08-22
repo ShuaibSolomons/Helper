@@ -1,0 +1,15 @@
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\bin\Debug\Helper.exe.config
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\bin\Debug\Helper.exe
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\bin\Debug\Helper.pdb
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\obj\Debug\MainWindow.g.cs
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\obj\Debug\App.g.cs
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\obj\Debug\Helper_MarkupCompile.cache
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\obj\Debug\Helper_MarkupCompile.lref
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\obj\Debug\MainWindow.baml
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\obj\Debug\Helper.g.resources
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\obj\Debug\Helper.Properties.Resources.resources
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\obj\Debug\Helper.csproj.GenerateResource.Cache
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\obj\Debug\Helper.exe
+C:\Users\Shuaib\Documents\Code\Visual Studio\Helper\Helper\obj\Debug\Helper.pdb

@@ -1,0 +1,97 @@
+﻿<Window x:Class="Helper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Helper"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="510" Width="300" ResizeMode="NoResize" WindowStyle="None" Background="#212121">
+    <Grid Background="White" Opacity="0.8">
+        <Rectangle 
+            Fill="#212121" 
+            HorizontalAlignment="Left" 
+            Height="49" 
+            VerticalAlignment="Top" 
+            Width="300"/>
+        <TextBlock 
+            HorizontalAlignment="Center" 
+            Margin="130,7,130,0" 
+            TextWrapping="Wrap" 
+            Text="Eliza" 
+            VerticalAlignment="Top" 
+            Foreground="White" 
+            FontSize="20"/>
+        <Button  
+            HorizontalAlignment="Left" 
+            Margin="15,35,0,0" 
+            VerticalAlignment="Top" 
+            Width="25" 
+            Height="4" 
+            Background="White"/>
+        <Grid Margin="15,59,260,434">
+            <Rectangle 
+                HorizontalAlignment="Left" 
+                Height="3" 
+                VerticalAlignment="Top" 
+                Width="25" 
+                Fill="#FF212121"/>
+            <Rectangle 
+                HorizontalAlignment="Left" 
+                Height="3" 
+                Margin="0,7,0,0" 
+                VerticalAlignment="Top" 
+                Width="25" 
+                Fill="#FF212121"/>
+            <Rectangle 
+                HorizontalAlignment="Left" 
+                Height="3" 
+                Margin="0,14,0,0" 
+                VerticalAlignment="Top" 
+                Width="25" 
+                Fill="#FF212121"/>
+        </Grid>
+        <Image 
+            Margin="122,36,122,435" 
+            Source="bot icon BlueWhiteBlack.png" 
+            Stretch="Fill"/>
+        <Rectangle 
+            Fill="#212121" 
+            Height="44" 
+            Margin="0,466,0,0" 
+            VerticalAlignment="Top" 
+            HorizontalAlignment="Left" 
+            Width="300"/>
+        <Border BorderThickness="1" 
+                Grid.Row="0"
+                Width="225"
+                CornerRadius="10,10,10,10" 
+                Background="#535353" 
+                Margin="7,473,63,6" >
+            <TextBox TextWrapping="Wrap" Text="Send Message..." Background="{x:Null}" BorderBrush="{x:Null}" TextChanged="TextBox_TextChanged" FontSize="15" Foreground="White" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="9,-1,-1,1" Width="215"/>
+        </Border>
+
+        <Button Margin="257,475,15,11" RenderTransformOrigin="0.5,0.5" Click="Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-9.728"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="send-button.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Button Margin="266,19,11,468">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="Client List Icon White.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
+</Window>
